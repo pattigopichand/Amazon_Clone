@@ -111,6 +111,8 @@ span{
 }
 /* panel */
 .panel{
+    font-size: 1.2rem;
+    font-weight: 600;
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -119,8 +121,13 @@ span{
     justify-content: space-evenly;
 }
 .panel-ops p{
+    
     display: inline;
-    margin-left: 15px;
+    margin: 5px 0px 6px;
+    padding : 8px 9px;
+}
+.panel-ops p:hover{
+    border: 1.5px solid white;
 }
 .panel-ops{
     width: 70%;
@@ -128,7 +135,7 @@ span{
     
 }
 .panel-deals{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 /* herosection */
@@ -197,11 +204,16 @@ footer{
 .foot-panel1{
     background-color: #37475a;
     color: white;
+    transition: color 0.3s ease;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.foot-panel1:hover{
+    background-color: rgba(55,71,90,0.7);
 }
 /* .add-firstfoot-panel2 */
 .foot-panel2{
@@ -213,12 +225,20 @@ footer{
 }
 ul{
     margin-top: 20px;
+    
+}
+ul p{
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 ul a{
     display: block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 10px;
     color: #dddddd;
+}
+ul a:hover{
+    text-decoration: underline;
 }
 
 /* foot-panel3 */
